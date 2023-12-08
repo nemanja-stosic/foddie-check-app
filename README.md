@@ -33,7 +33,7 @@ You can check out Foodie Check in a web browser, but for a better experience, yo
   <li>Click Add and that's it. The app will appear on your home screen.</li>
 </ol>
 
-# Technologies
+# Technologies 
 
 I used HTML, CSS, JavaScript, and Firebase database to create Foodie Check. 
 Implemented OneSignal API that sends notifications on users' phones.
