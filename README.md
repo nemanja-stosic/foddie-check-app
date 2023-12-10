@@ -40,4 +40,5 @@ Implemented OneSignal API that sends notifications on users' phones.
 
 Preview (less than 30 sec)
 
-<img src="https://github.com/nemanja-stosic/foodie-check/assets/48128569/aaf5ee46-f708-430e-a63a-bfc9687273a9" alt="alt text" width="854" height="480">
+![preview](https://github.com/nemanja-stosic/foddie-check-app/assets/48128569/600bf92b-06e7-4431-8647-3c6dd59f88fb)
+
