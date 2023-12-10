@@ -38,7 +38,7 @@ You can check out Foodie Check in a web browser, but for a better experience, yo
 I used HTML, CSS, JavaScript, and Firebase database to create Foodie Check. 
 Implemented OneSignal API that sends notifications on users' phones.
 
-Preview (less than 30 sec)
+Preview (less than 2 min)
 
 ![preview](https://github.com/nemanja-stosic/foddie-check-app/assets/48128569/600bf92b-06e7-4431-8647-3c6dd59f88fb)
 
