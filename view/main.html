@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Foodie Check</title>
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet" />
+
+  <!-- Links so that icons look good on any device -- favicon.io -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/res/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/res/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/res/favicon-16x16.png">
+  <link rel="manifest" href="/res/site.webmanifest">
+  <link rel="mask-icon" href="/res/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+
+  <script>
+    window.OneSignalDeferred = window.OneSignalDeferred || [];
+    OneSignalDeferred.push(function (OneSignal) {
+      OneSignal.init({
+        appId: "607d9301-401e-47e0-8328-562bdb033b2e",
+        notifyButton: {
+          enable: true,
+        },
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <img src="/res/shopping cart.jpg" alt="" class="pic" />
+    <div class="sign-out-container">
+      <span id="greeting-mesesage"></span>
+      <span class="logout-text">Log out</span>
+      <button id="logout-btn" class="icon-btn">
+        <img src="/res/icon-sign-out.svg" class="icon-img-btn" />
+      </button>
+    </div>
+    <div class="input-group">
+      <i class="fa fa-user"></i>
+      <input type="text" id="input-field-item" class="input-text" placeholder="Bread" />
+    </div>
+    <div class="input-group">
+      <i class="fa fa-user"></i>
+      <input type="text" id="input-field-price" class="input-text" placeholder="350" />
+    </div>
+
+    <span id="error-message"><i>Enter all data required!</i></span>
+    <div class="controls-btns">
+      <button id="add-button">Add to cart</button>
+    </div>
+
+    <div class="tooltip">
+      <div class="controls-btns">
+        <button id="reminder-button">Reminder: OFF</button>
+      </div>
+      <span class="tooltiptext">
+        Reminder ON: sends a notification every 3 min until your cart is
+        empty.
+      </span>
+    </div>
+    <div id="important-reminder">
+      <span>IMPORTANT: For Reminder to work, you must always have an app open
+        (without locking your phone) and an internet connection.</span>
+    </div>
+
+    <button class="balance-button" id="balance-button-id">
+      <h2 id="balance-text">Balance: <span id="money">0</span> din</h2>
+    </button>
+    <div class="tooltip-reset">
+      <div class="spend-container">
+        <span>You will spend: <span id="spent-sum"></span></span>
+        <button id="reset-button"><img src="/res/resetIcon.png"></button>
+      </div>
+      <span class="tooltiptext">
+        Reset the amount you will spend without considering previously added items.
+      </span>
+    </div>
+
+    <ul id="shopping-list">
+    </ul>
+  </div>
+
+  <script src="/js/main.js" type="module"></script>
+</body>
+
+</html>

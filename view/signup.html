@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+      <!-- Links so that icons look good on any device -- favicon.io -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/res/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/res/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/res/favicon-16x16.png">
+    <link rel="manifest" href="/res/site.webmanifest">
+    <link rel="mask-icon" href="/res/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+    <div class="login-form-container" id="login-form">
+      <div class="login-form">
+        <h2>Sign Up</h2>
+        <div class="input-group">
+          <i class="fa fa-user"></i>
+          <input id="email-input-field"
+            type="text"
+            placeholder="Email"
+            class="input-text"
+            autocomplete="off"
+          />
+        </div>
+        <div class="input-group">
+          <i class="fa fa-unlock-alt"></i>
+          <input id="password-input-field"
+            type="password"
+            placeholder="Password"
+            class="input-text"
+            autocomplete="off"
+          />
+        </div>
+        <div class="input-group">
+          <i class="fa fa-unlock-alt"></i>
+          <input id="password-input-field-confirm"
+            type="password"
+            placeholder="Confirm Password"
+            class="input-text"
+            autocomplete="off"
+          />
+        </div>
+        <div id="error-container">
+          <span id="error-message"><i>Enter all data required!</i></span>
+        </div>
+        <div class="button_group" id="login-button-div"> 
+          <button id="signup-button">Create Account</button>
+        </div>
+        <div class="footer">
+          <a href="../index.html">Have an Account? Log In!</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="verify-div" id="verify-container">
+      <h1 id="verification-message">Please, verify your email to continue...</h1>
+    </div>
+
+    <script src="/js/signup.js" type="module"></script>
+  </body>
+</html>

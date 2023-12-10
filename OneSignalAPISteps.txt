@@ -1,0 +1,2 @@
+1. On OneSignal web site first we need to configure Google Android (FCM) Configuration (select project, then go to settings)
+2. Follow these steps: https://documentation.onesignal.com/docs/mobile-sdk-setup (for android firebase config: https://documentation.onesignal.com/docs/generate-firebase-credentials)
