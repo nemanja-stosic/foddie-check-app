@@ -28,9 +28,9 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const database = getFirestore(app);
 
-const API_KEY = "ZWI5MjI4MDktMGQ3NC00M2Y1LWIyZDgtZDI3NjliY2E3NTIx";
-const ONESIGNAL_APP_ID = "607d9301-401e-47e0-8328-562bdb033b2e";
-const BASE_URL = "https://onesignal.com/api/v1/";
+const API_KEY = "API_KEY_HERE";
+const ONESIGNAL_APP_ID = "ONESIGNAL_APP_ID_HERE";
+const BASE_URL = "BASE_URL_HERE";
 
 const greetingMessage = document.getElementById("greeting-mesesage");
 const inputFieldItem = document.getElementById("input-field-item");
