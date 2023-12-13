@@ -18,7 +18,7 @@ import {
 import axios from "https://cdn.jsdelivr.net/npm/axios@1.3.5/+esm";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDAEshcJwkRNB8Pk6sS0HiX6fzGXeIng7c",
+  apiKey: "API key here",
   authDomain: "foddie-check-db.firebaseapp.com",
   projectId: "foddie-check-db",
   storageBucket: "foddie-check-db.appspot.com",
